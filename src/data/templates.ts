@@ -1,0 +1,58 @@
+import { PromptTemplateItem } from '../types';
+
+export const TEMPLATES: PromptTemplateItem[] = [
+  {
+    id: 'study',
+    icon: '📚',
+    title: 'Study',
+    description: 'Help me learn a topic.',
+    prefillIdea: 'Help me learn a new topic step-by-step with simple examples.',
+    category: 'Studying 📚',
+    tone: 'Simple',
+  },
+  {
+    id: 'coding',
+    icon: '💻',
+    title: 'Coding',
+    description: 'Help me understand or write code.',
+    prefillIdea: 'Help me understand or write code with easy-to-follow explanations.',
+    category: 'Coding 💻',
+    tone: 'Simple',
+  },
+  {
+    id: 'writing',
+    icon: '✍️',
+    title: 'Writing',
+    description: 'Help me write something.',
+    prefillIdea: 'Help me write a clear and engaging text.',
+    category: 'Writing ✍️',
+    tone: 'Friendly',
+  },
+  {
+    id: 'business',
+    icon: '💼',
+    title: 'Business',
+    description: 'Help me with a business idea.',
+    prefillIdea: 'Help me analyze and develop a simple business idea.',
+    category: 'Business 💼',
+    tone: 'Professional',
+  },
+  {
+    id: 'email',
+    icon: '📧',
+    title: 'Email',
+    description: 'Help me write an email.',
+    prefillIdea: 'Help me write a polite and clear email.',
+    category: 'Writing ✍️',
+    tone: 'Friendly',
+  },
+  {
+    id: 'ideas',
+    icon: '💡',
+    title: 'Ideas',
+    description: 'Give me ideas for something.',
+    prefillIdea: 'Give me creative and practical ideas.',
+    category: 'Ideas 💡',
+    tone: 'Friendly',
+  },
+];

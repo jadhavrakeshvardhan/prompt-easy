@@ -1,0 +1,8 @@
+{
+  "name": "PromptEasy",
+  "description": "Very simple beginner-friendly AI prompt generator. Tell us what you want in simple words, generate a clear structured prompt, and copy it with ease.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
